@@ -1,0 +1,18 @@
+Event Summary
+==========================
+Theme: beach
+Guests: 50
+Budget: ₹50000.0
+Reason: wedding
+
+Recommended Vendor:
+BeachVibes Ltd. (Cost: ₹15000) if matching_vendors else "N/A"
+
+Recommended Restaurant:
+BeachCafe (Avg per guest: ₹450) if matching_restaurants else "N/A"
+
+Surprise Idea:
+Sand art station & live acoustic music
+
+Total Estimated Cost: ₹37500
+==========================
