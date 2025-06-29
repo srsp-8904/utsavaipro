@@ -62,7 +62,7 @@ def main():
 
     # Surprise idea
     surprise = next((s['idea'] for s in surprises if s['theme'].lower() == theme.lower()), None)
-    print(f"\n💡 A surprise idea for your guests: {surprise if surprise else 'Maybe add a small welcome drink or fun photo booth?'}")
+    print(f"\n A surprise idea for your guests: {surprise if surprise else 'Maybe add a small welcome drink or fun photo booth?'}")
 
     # Estimate total food cost
     avg_cost = matching_restaurants[0]['avg_cost_per_guest'] if matching_restaurants else sorted(restaurants, key=lambda x: x['rating'], reverse=True)[0]['avg_cost_per_guest']
@@ -104,7 +104,7 @@ Total Estimated Cost: ₹{total_est_cost}
     with open("event_summary.txt", "w", encoding="utf-8") as f:
         f.write(summary)
 
-    print("\n✅ Summary saved to event_summary.txt. You can open this file anytime!")
+    print("\n Summary saved to event_summary.txt. You can open this file anytime!")
 
 if __name__ == "__main__":
     main()
